@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: "Roboto";
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+
+}
+h1 {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8; 
+}
+
+.header-links {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 18px;
+}
+.header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text{
+
+}
+
+.secondary-text {
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+
+}
+.viking-ship {
+    height: 250px;
+    width: 350px;
+    margin: auto;
+    padding: auto;
+}
