@@ -109,7 +109,7 @@ button {
     width: auto;
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     width: 1000px;
 }
 
@@ -132,7 +132,7 @@ button {
     display: flex;
   }
   
-  .images > * {
+.images > * {
     display: flex;
     width: 175px;
     height: 175px;
@@ -140,12 +140,12 @@ button {
     margin-bottom: 10px;
   }
   
-  .sub-text {
+.sub-text {
     display: flex;
     flex-wrap: wrap;
   }
   
-  .sub-text > * {
+.sub-text > * {
     display: flex;
     width: 175px;
     height: 175px;
@@ -153,4 +153,33 @@ button {
     margin-top: 0;
     font-size: 18px;
     text-align: center;
+  }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    width: auto;
+    padding: 125px;
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 1000px;
+  }
+
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 825px;
+  }
+
+.quoted {
+    display: flex;
+    justify-content: right;
+    font-weight: bolder;
+    width: 725px;
   }
