@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: black;
     font-family: roboto, sans-serif;
 }
@@ -98,3 +99,58 @@ button {
     width: 750px;
     margin-left: 50px;
 }
+
+.middle-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    width: 1000px;
+}
+
+.middle-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+  }
+  
+  .images > * {
+    display: flex;
+    width: 175px;
+    height: 175px;
+    margin: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .sub-text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .sub-text > * {
+    display: flex;
+    width: 175px;
+    height: 175px;
+    margin: 25px;
+    margin-top: 0;
+    font-size: 18px;
+    text-align: center;
+  }
